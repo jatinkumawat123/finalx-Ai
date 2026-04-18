@@ -68,7 +68,6 @@ const featureModules = [
 ];
 
 const FeatureDetail = ({ mod, reversed }) => {
-  const [activeCapability, setActiveCapability] = useState(null);
   return (
     <div id={mod.id} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 60, alignItems: 'center', marginBottom: 100, direction: reversed ? 'rtl' : 'ltr' }}>
       <div style={{ direction: 'ltr' }}>
