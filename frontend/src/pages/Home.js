@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Zap, Brain, Code2, Star, TrendingUp, Shield, ArrowRight, Sparkles, Users, MessageSquare, BookOpen, Wand2 } from 'lucide-react';
+import { Zap, Code2, Star, TrendingUp, ArrowRight, Sparkles, MessageSquare, BookOpen, Wand2 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
