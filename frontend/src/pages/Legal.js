@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Download, Smartphone, Globe, Zap } from 'lucide-react';
+import { ArrowLeft, Smartphone, Globe, Zap } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
