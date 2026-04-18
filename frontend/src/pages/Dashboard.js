@@ -3,10 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth, API } from '../context/AuthContext';
 import ReactMarkdown from 'react-markdown';
 import toast from 'react-hot-toast';
-import {
-  Zap, MessageSquare, BookOpen, Sparkles, Code2, Star, TrendingUp,
-  Send, LogOut, Settings, Crown, History, Trash2, Menu, X, User, Image, Wand2
-} from 'lucide-react';
+import { Zap, MessageSquare, BookOpen, Sparkles, Code2, Star, TrendingUp, Send, LogOut, Settings, Crown, History, Trash2, Menu, X, User } from 'lucide-react';
 
 const modules = [
   { id: 'chat', label: 'AI Chat', icon: MessageSquare, color: '#00f0ff', placeholder: 'Ask me anything...' },
