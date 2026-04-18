@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { MessageSquare, BookOpen, Sparkles, Code2, Star, TrendingUp, Image, Wand2, Brain, Shield, Zap, ArrowRight, Play, Check } from 'lucide-react';
+import { MessageSquare, BookOpen, Sparkles, Code2, Star, TrendingUp, Image, Wand2, Brain, Shield, Zap, ArrowRight, Check } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
