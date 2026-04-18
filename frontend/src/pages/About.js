@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Zap, Target, Heart, Globe, ArrowRight, Linkedin, Twitter, Github } from 'lucide-react';
+import { Target, Heart, Globe, ArrowRight, Linkedin, Twitter, Github } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
