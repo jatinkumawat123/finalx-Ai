@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth, API } from '../context/AuthContext';
 import toast from 'react-hot-toast';
-import { User, Lock, Crown, Trash2, Save, ArrowLeft, Shield, Bell, Palette } from 'lucide-react';
+import { User, Lock, Crown, Trash2, Save, ArrowLeft, Shield } from 'lucide-react';
 
 const Settings = () => {
   const { user, updateUser, logout } = useAuth();
